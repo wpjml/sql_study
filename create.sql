@@ -1,0 +1,5 @@
+CREATE TABLE information(
+	info_is SERIAL PRIMARY KEY,
+	title VARCHAR(500) NOT NULL,
+	person VARCHAR(50) NOT NULL UNIQUE
+)

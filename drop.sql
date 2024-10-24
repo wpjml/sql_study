@@ -1,0 +1,2 @@
+ALTER TABLE information
+DROP COLUMN IF EXISTS person
